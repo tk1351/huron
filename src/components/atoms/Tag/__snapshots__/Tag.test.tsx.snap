@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Tag Component Render 正しくTagコンポーネントが表示されていること 1`] = `
+<a
+  css={
+    Object {
+      "map": undefined,
+      "name": "1dz688v",
+      "next": undefined,
+      "styles": "background-color:#066163;border-radius:10%;padding:0.2rem;text-decoration:none;",
+      "toString": [Function],
+    }
+  }
+  href="#"
+>
+  tag
+</a>
+`;

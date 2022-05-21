@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+main {
+  padding: 0 170px;
+}
+
 a {
   color: #f2f2f2;
 }
