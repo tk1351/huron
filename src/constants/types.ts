@@ -13,3 +13,10 @@ export type JustifyContent =
   | 'stretch'
   | 'safe'
   | 'unsafe'
+
+export type TextDecoration =
+  | 'underline'
+  | 'none'
+  | 'inherit'
+  | 'revert'
+  | 'unset'

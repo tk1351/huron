@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ArticleCard Component Render 正しくArticleCardコンポーネントが表示されていること 1`] = `
+<article>
+  <header
+    css={
+      Object {
+        "map": undefined,
+        "name": "1r2f04i",
+        "next": undefined,
+        "styles": "margin-bottom:10px;",
+        "toString": [Function],
+      }
+    }
+  >
+    <h3
+      css={
+        Object {
+          "map": undefined,
+          "name": "1jyzwxm",
+          "next": undefined,
+          "styles": "font-size:24px;margin-bottom:5px;",
+          "toString": [Function],
+        }
+      }
+    >
+      <a
+        css={
+          Object {
+            "map": undefined,
+            "name": "ytumd6",
+            "next": undefined,
+            "styles": "text-decoration:none;",
+            "toString": [Function],
+          }
+        }
+        href="#"
+      >
+        expectedTitle
+      </a>
+    </h3>
+    <div
+      css={
+        Object {
+          "map": undefined,
+          "name": "k6a5vf",
+          "next": undefined,
+          "styles": "display:flex;justify-content:flex-start;gap:20px;",
+          "toString": [Function],
+        }
+      }
+    >
+      <span>
+        expectedCreatedAt
+      </span>
+      <ul
+        css={
+          Object {
+            "map": undefined,
+            "name": "1qvxlgp",
+            "next": undefined,
+            "styles": "margin:0;padding:0;list-style:none;display:flex;gap:10px;",
+            "toString": [Function],
+          }
+        }
+      >
+        <li>
+          <a
+            css={
+              Object {
+                "map": undefined,
+                "name": "1dz688v",
+                "next": undefined,
+                "styles": "background-color:#066163;border-radius:10%;padding:0.2rem;text-decoration:none;",
+                "toString": [Function],
+              }
+            }
+            href="#"
+          >
+            react
+          </a>
+        </li>
+        <li>
+          <a
+            css={
+              Object {
+                "map": undefined,
+                "name": "1dz688v",
+                "next": undefined,
+                "styles": "background-color:#066163;border-radius:10%;padding:0.2rem;text-decoration:none;",
+                "toString": [Function],
+              }
+            }
+            href="#"
+          >
+            vue
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <section
+    css={
+      Object {
+        "map": undefined,
+        "name": "1r2f04i",
+        "next": undefined,
+        "styles": "margin-bottom:10px;",
+        "toString": [Function],
+      }
+    }
+  >
+    <p
+      css={
+        Object {
+          "map": undefined,
+          "name": "coqqpk",
+          "next": undefined,
+          "styles": "text-overflow:ellipsis;overflow:hidden;width:100%;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;",
+          "toString": [Function],
+        }
+      }
+    >
+      expectedContent
+    </p>
+  </section>
+  <nav>
+    <a
+      css={
+        Object {
+          "map": undefined,
+          "name": "1081t4c",
+          "next": undefined,
+          "styles": "text-decoration:underline;",
+          "toString": [Function],
+        }
+      }
+      href="#"
+    >
+      続きを読む
+    </a>
+  </nav>
+</article>
+`;
