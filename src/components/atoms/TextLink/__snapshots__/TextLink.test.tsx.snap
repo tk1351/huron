@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TextLink Component Render 正しくTextLinkコンポーネントが表示されていること 1`] = `
+<a
+  href="#"
+>
+  textLink
+</a>
+`;
