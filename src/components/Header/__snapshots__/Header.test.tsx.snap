@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header Component Render 正しくHeaderコンポーネントが描画されていること 1`] = `
+<header
+  css={
+    Object {
+      "map": undefined,
+      "name": "14hz84z",
+      "next": undefined,
+      "styles": "background-color:#066163;width:100%;height:50px;padding:0 170px;",
+      "toString": [Function],
+    }
+  }
+>
+  <h1>
+    <a
+      css={
+        Object {
+          "map": undefined,
+          "name": "ytumd6",
+          "next": undefined,
+          "styles": "text-decoration:none;",
+          "toString": [Function],
+        }
+      }
+      href="#"
+    >
+      Blog
+    </a>
+  </h1>
+</header>
+`;

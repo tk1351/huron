@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Cluster Component Render 正しくClusterコンポーネントが表示されていること 1`] = `
+<div
+  css={
+    Object {
+      "map": undefined,
+      "name": "14ggwnl",
+      "next": undefined,
+      "styles": "display:flex;justify-content:flex-start;gap:0px;",
+      "toString": [Function],
+    }
+  }
+>
+  <div>
+    App
+  </div>
+  <div>
+    App2
+  </div>
+</div>
+`;
