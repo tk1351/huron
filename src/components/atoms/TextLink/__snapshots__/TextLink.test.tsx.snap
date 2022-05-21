@@ -2,6 +2,15 @@
 
 exports[`Testing TextLink Component Render 正しくTextLinkコンポーネントが表示されていること 1`] = `
 <a
+  css={
+    Object {
+      "map": undefined,
+      "name": "1081t4c",
+      "next": undefined,
+      "styles": "text-decoration:underline;",
+      "toString": [Function],
+    }
+  }
   href="#"
 >
   textLink
