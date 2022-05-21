@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { header, link } from './style'
-import { APP_NAME } from '../../constants/constants'
+import { APP_NAME } from '../../../constants/constants'
 
 export const Header: FC = () => (
   <header css={header}>

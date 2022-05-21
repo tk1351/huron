@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { cluster } from './style'
-import { JustifyContent } from '../../constants/types'
+import { JustifyContent } from '../../../constants/types'
 
 type Props = {
   justifyContent?: JustifyContent

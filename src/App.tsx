@@ -1,3 +1,3 @@
-import { Header } from './components/Header/Header'
+import { Header } from './components/commons/Header/Header'
 
 export const App = () => <Header />

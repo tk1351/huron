@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { JustifyContent } from '../../constants/types'
+import { JustifyContent } from '../../../constants/types'
 
 type ClusterProps = {
   justifyContent: JustifyContent

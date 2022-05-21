@@ -1,5 +1,5 @@
 import { css } from '@emotion/react'
-import { GREEN } from '../../constants/constants'
+import { GREEN } from '../../../constants/constants'
 
 export const header = css({
   backgroundColor: GREEN,
