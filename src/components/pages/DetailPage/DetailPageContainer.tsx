@@ -28,7 +28,7 @@ https://github.com でコードの管理ができる
     - list7
 `
 
-export const DetailPageContainter: FC = () => (
+export const DetailPageContainer: FC = () => (
   <DetailPagePresentational
     title={title}
     createdAt={createdAt}
