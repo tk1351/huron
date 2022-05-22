@@ -1,11 +1,11 @@
 import { Header } from './components/commons/Header/Header'
-import { MainPageContainer } from './components/pages/MainPage/MainPageContainer'
+import { TagsPageContainer } from './components/pages/TagsPage/TagsPageContainer'
 
 export const App = () => (
   <>
     <Header />
     <main>
-      <MainPageContainer />
+      <TagsPageContainer />
     </main>
   </>
 )
