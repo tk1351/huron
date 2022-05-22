@@ -20,3 +20,5 @@ export type TextDecoration =
   | 'inherit'
   | 'revert'
   | 'unset'
+
+export type TagItem = { id: string; title: string; href: string }

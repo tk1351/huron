@@ -23,5 +23,5 @@
     ]
   },
   "include": ["src", "jest.setup.ts", "node_modules/@types/jest/index.d.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }

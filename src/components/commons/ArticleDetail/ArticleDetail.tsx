@@ -1,8 +1,9 @@
 import { FC } from 'react'
-import { TextLink } from '../../atoms/TextLink/TextLink'
-import { Tag } from '../../atoms/Tag/Tag'
-import { articleTitle, header, list, section, text } from './style'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { Cluster } from '../../atoms/Cluster/Cluster'
+import { Tag } from '../../atoms/Tag/Tag'
+import { article, articleTitle, list, markdownStyle } from './style'
 import { TagItem } from '../../../constants/types'
 
 type Props = {
@@ -12,12 +13,15 @@ type Props = {
   content: string
 }
 
-export const ArticleCard: FC<Props> = ({ title, createdAt, tags, content }) => (
-  <article>
-    <header css={header}>
-      <h3 css={articleTitle}>
-        <TextLink title={title} href="#" textDecoration="none" />
-      </h3>
+export const ArticleDetail: FC<Props> = ({
+  title,
+  createdAt,
+  tags,
+  content
+}) => (
+  <article css={article}>
+    <header>
+      <h3 css={articleTitle}>{title}</h3>
       <Cluster gap="20px">
         <span>{createdAt}</span>
         <ul css={list}>
@@ -29,11 +33,12 @@ export const ArticleCard: FC<Props> = ({ title, createdAt, tags, content }) => (
         </ul>
       </Cluster>
     </header>
-    <section css={section}>
-      <p css={text}>{content}</p>
+    <section>
+      <ReactMarkdown
+        css={markdownStyle}
+        children={content}
+        remarkPlugins={[remarkGfm]}
+      />
     </section>
-    <nav>
-      <TextLink title="続きを読む" href="#" />
-    </nav>
   </article>
 )

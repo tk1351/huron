@@ -45,3 +45,4 @@ rules:
     - namedComponents: 'arrow-function'
       unnamedComponents: 'arrow-function'
   react/require-default-props: off
+  react/no-children-prop: off
