@@ -1,6 +1,6 @@
-import { MouseEvent, FC } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { FC, useEffect } from 'react'
 import { MainPagePresentational } from './MainPagePresentational'
+import { fetchArticles } from '../../../api/blogs/blogs'
 
 const markdown = `
 # h1
@@ -64,6 +64,12 @@ const articles = [
   }
 ]
 
-export const MainPageContainer: FC = () => (
-  <MainPagePresentational articles={articles} pageCount={5} />
-)
+export const MainPageContainer: FC = () => {
+  useEffect(() => {
+    ;(async () => {
+      await fetchArticles()
+    })()
+  }, [])
+
+  return <MainPagePresentational articles={articles} pageCount={5} />
+}
