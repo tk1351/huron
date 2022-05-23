@@ -10,7 +10,7 @@ export const App = () => (
     <main>
       <Routes>
         <Route path="/" element={<MainPageContainer />} />
-        <Route path="/1" element={<DetailPageContainer />} />
+        <Route path="/:articleId" element={<DetailPageContainer />} />
         <Route path="/tag" element={<TagsPageContainer />} />
       </Routes>
     </main>

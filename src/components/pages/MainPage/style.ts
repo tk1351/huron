@@ -5,7 +5,7 @@ export const wrapper = css({
   overflow: 'hidden',
   padding: '20px 0',
   'article:not(:first-of-type)': {
-    marginTop: '20px'
+    marginTop: '40px'
   }
 })
 

@@ -1,4 +1,5 @@
-import { FC } from 'react'
+import { MouseEvent, FC } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { MainPagePresentational } from './MainPagePresentational'
 
 const markdown = `
